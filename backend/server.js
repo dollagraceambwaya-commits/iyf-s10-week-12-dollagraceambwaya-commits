@@ -35,7 +35,9 @@ console.log("MONGO_URI =", process.env.MONGO_URI);
 
 // MongoDB Connection + Server
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI, {
+    serverSelectionTimeoutMS: 5000,
+  })
   .then(() => {
     console.log("MongoDB connected");
 
