@@ -1,4 +1,3 @@
- 
 /* Global Color Theme */
 :root {
   --primary-color: #2c3e50;
@@ -9,9 +8,7 @@
   --white: #ffffff;
 }
 
-
 /* Global Reset + Base Styles */
-
 * {
   margin: 0;
   padding: 0;
@@ -19,15 +16,9 @@
 }
 
 body {
- main
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
-}
-
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #F9FAFB;
-  color: #1F2937;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,4 +52,3 @@ a:hover {
 .btn:hover {
   background: #2563EB;
 }
-
